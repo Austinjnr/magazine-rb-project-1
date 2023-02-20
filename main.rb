@@ -6,8 +6,8 @@ require_relative "./magazine_domain/magazine.rb"
 author = Author.new("Austin Junior")
 author1 = Author.new("Adams Kaws")
 # Created magazines
-magazine1 = Publisher.new("NPr TinyDesk", "XXL Freashmen")
-magazine2 = Publisher.new("NYC Times", "The People")
+magazine1 = Magazine.new("NPr TinyDesk", "Music")
+magazine2 = Magazine.new("NYC Times", "Business and Treands")
 
 # Adds articles
 article1 = Article.new(author, magazine1, "Her Album preview")
@@ -16,4 +16,8 @@ article3 = Article.new(author, magazine1, "Upcoming artists")
 article4 = Article.new(author1, magazine2, "The mass job Layoffs and resenssion")
 
 # methods tested
- 
+puts Author.all
+ puts "The first publisher is #{author.name}"
+
+ puts "The second publisher is #{author1.name}"
+
