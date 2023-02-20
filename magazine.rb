@@ -25,4 +25,7 @@ class Magazine
       Article.all.select { |article| article.magazine == self }.map { |article| article.title }
     end
   
- 
+    def contributing_authors
+      contributors.select { |author| author.articles.count > 2 }
+    end
+  end
