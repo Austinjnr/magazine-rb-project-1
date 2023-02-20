@@ -22,7 +22,7 @@ To use this rep on your machine, requires some simple steps:
         code .
 
     ## Setup
-1. In a new terminal, run ``. 
+1. In a new terminal, run `ruby main.rb`, this creates instances of the classes and calls their methods as defined in the file.
 
     # Author
 This project was contributed to by:
