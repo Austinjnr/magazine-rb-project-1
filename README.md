@@ -1,5 +1,5 @@
 # magazine-rb-project-1
-week 2 ruby code challenge
+Week 2 ruby code challenge. For this assignment, you will be working with a Magazine domain. We have three models: Author, Article, and Magazine. For our purposes, an Author has many Articles, a Magazine has many Articles, and Articles belong to both Author and Magazine.
 
 # Magazine Domain
 This project is a demonstration of object-oriented programming fundamentals in Ruby using a magazine domain. The project includes three classes: Author, Article, and Magazine, as well as methods for creating and managing instances of these classes.
