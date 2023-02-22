@@ -35,8 +35,8 @@ puts "This are the articles in #{magazine1.name} and #{magazine2.name} magazines
 =begin
 author.add_article(magazine2, "The Dark Side of Writing") # Create a new article and associate it with author1 and magazine2
 puts Magazine.all # Output: [magazine1, magazine2]
-puts Magazine.find_by_name("Vogue") # Output: magazine1
-puts magazine1.article_titles # Output: ["The Fashion of Harry Potter"]
+puts Magazine1.find_by_name("NPr TinyDesk") # Output: magazine1
+puts magazine1.article_titles # Output: ["Her Loss Album preview, Upcoming artists"]
 
 puts magazine2.contributing_authors # Output: [author1, author2]
 
